@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: solidproject
+  mail:
+    host: smtp.example.com
+    port: 587
+    username: your_username
+    password: your_password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
